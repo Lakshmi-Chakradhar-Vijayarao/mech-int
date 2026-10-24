@@ -1,3 +1,9 @@
+> **Status (October 2026): the causal claims in this README are superseded.**
+> This README reflects the project's original 2025 analysis. A later validity check showed the FFN-vs-attention question cannot be answered on this testbed: GPT-2 answers only 3.3% of TruthfulQA items correctly, and over half of the nominal "hallucinations" are repetition loops, so the probe and steering results below do not support causal conclusions.
+> Follow-up: [`ffn-mechanism-audit`](https://github.com/Lakshmi-Chakradhar-Vijayarao/ffn-mechanism-audit) and the paper *Uninterpretable Nulls in Interpretability Intervention Studies: A Closed-Book Case Study and a Validity Checklist*. The original text is kept below for the record.
+
+---
+
 # Can a Language Model Know When It's Wrong?
 
 ### Detecting, Localising, and Steering Hallucinations from Internal Activations
